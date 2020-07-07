@@ -21,7 +21,7 @@ Python instagram parser
   
 <code>name = 'name of user'</code>
   
-<code>profile(publication(name))</code>
+<code>print(profile(name))</code>
 
 **3** igtv:
 
@@ -29,5 +29,5 @@ Python instagram parser
   
 <code>link = 'link to igtv'</code>
   
-<code>tv(publication(link))</code>
+<code>print(tv(link))</code>
 
