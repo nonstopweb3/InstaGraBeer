@@ -6,31 +6,28 @@ Python instagram parser
 
 **1** publication:
 
-<code>
-  from main import publication
+
+<code>from main import publication</code>
+
+<code>name = 'name of user'</code>
   
-  name = 'name of user'
-  
-  print(publication(name))
-</code>
+<code>print(publication(name))</code>
+
 
 
 **2** profile info:
 
-<code>
-  from main import profile
+<code>from main import profile</code>
   
-  name = 'name of user'
+<code>name = 'name of user'</code>
   
-  profile(publication(name))
-</code>
+<code>profile(publication(name))</code>
 
 **3** igtv:
 
-<code>
-  from main import tv
+<code>from main import tv</code>
   
-  link = 'link to igtv'
+<code>link = 'link to igtv'</code>
   
-  tv(publication(link))
-</code>
+<code>tv(publication(link))</code>
+
